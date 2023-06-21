@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.cabecalho{
+    background-color: #000000;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 0;
+}
+.imagemlogo{
+    width: 35%;
+}
+.cabecalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 24px;
+}
+.samsung-imagem{
+    width: 25%;
+}
+.oquee{
+    background-image: linear-gradient(#000000,#000000ab);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0px;
+}
+.oquee-conteudo{
+    width: 35%;
+}
+.titulo-oquee{
+    padding: 24px 0px;
+}
+.texto-oquee{
+    padding: 10px 0px;
+}
+.produto-imagem{
+    width: 120px;
+    height: 95px;
+}
+.icone-compra{
+    width: 24px;
+}
+.produto{
+    text-align: center;
+}
+.produtos-titulo{
+    text-align: center;
+    padding: 50px 0px;
+}
+.todos-produtos{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+.rodape{
+    background-color: black;
+    text-align: center;
+}
